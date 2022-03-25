@@ -17,13 +17,13 @@ module.exports = (data, option) => {
 module.exports.loader = (data, option) => {
 	switch (option) {
 		case "warn":
-			console.log(chalk.rgb(	255,0,255)('» ℕ𝕙𝕦̛ 𝕋𝕙𝕒̀𝕟𝕙 «  ') + data);
+			console.log(chalk.rgb(	255,0,255)('» tuitenvu «  ') + data);
 			break;
 		case "error":
-			console.log(chalk.rgb(223,115,255)('» ℕ𝕙𝕦̛ 𝕋𝕙𝕒̀𝕟𝕙 «  ') + data);
+			console.log(chalk.rgb(223,115,255)('» tuitenvu «  ') + data);
 			break;
 		default:
-			console.log(chalk.rgb(0,255,0)(`» ℕ𝕙𝕦̛ 𝕋𝕙𝕒̀𝕟𝕙 «  `) + data);
+			console.log(chalk.rgb(0,255,0)(`» tuitenvu «  `) + data);
 			break;
 	}
 }
